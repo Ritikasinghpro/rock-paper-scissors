@@ -5,9 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock-paper-scissors</title>
-    <script src="main.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <header><h2>Rock Paper Scissors</h2></header>
+    <div class="game-container">
+        <div class="game-board">
+            <div class="title">
+                Pick Your Choice
+                <h6> First one to get 5 points win's </h6>
+            </div>
+            <div class="selection-buttons">
+                <div class="game-card">
+                    
+                    <div class="sticker">✊</div>
+                    <button id="rock">Pick Rock</button>
+                </div>
+                <div class="game-card">
+                    
+                    <div class="sticker">✋</div>
+                    <button id="paper">Pick Paper</button>
+                </div>
+                <div class="game-card">
+                    
+                    <div class="sticker">✌️</div>
+                    <button id="scissors">Pick Scissors</button>
+                </div>    
+            </div>
+            <div class="board-console1">
+                <div class="title">
+                    Computer Output
+                </div>
+                <div class="board-console">
+                    
+                        <div class="screen" id="screen">   
+                        </div>
+                        <div class="cpick"></div>
+                
+                </div>
+            </div>    
+            
+        </div>
+        <div class="score-board">
+            <div class="score" >
+                <h3>-- ScoreBoard --</h3>
+                <h4 id="you">Your Score</h4>
+                <div class="points" id="yourScore">
+                    0
+                </div>
+                <h4 id="computer">Computer Score</h4>
+                <div class="points" id="computerScore">
+                    0
+                </div>
+                
+            </div>
+            <div class="rules">
+                <button id="rules" onclick="https://en.wikipedia.org/wiki/Rock_paper_scissors">Rules</button>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

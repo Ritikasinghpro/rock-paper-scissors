@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color : #5902EC;
+    --card-color: #ffffff;
+    --bg-color: #f1f3f8;
+    --buttons-color: #0067FA;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-color);
+    
+}
+header{
+    
+    background-color: var(--primary-color);
+    color: var(--card-color);
+    font-family: monospace;
+    padding: 16px 0 16px 80px ;   
+}
+.game-container{
+    display: flex;
+    margin: 24px 80px ;
+    justify-content: space-between;
+
+}
+.game-board{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 100vh;
+    width: 60vw;
+}
+.score-board{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 20vw;
+   
+}
+.title{
+    text-align: center;
+    /* border: 4px solid #5902EC; */
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 16px;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    color: #000000;
+    /* box-shadow: 0 8px 16px  rgba(20, 20, 20, 0.2); */
+}
+h6{
+    color: #5a5a5a;
+    margin: 8px;
+}
+.selection-buttons{
+    display: flex;
+    height: 40vh;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--card-color);
+    border-radius: 12px;
+   
+}
+.game-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--card-color);
+    margin: 32px;
+    width: 80%;
+    height: 70%;
+    border: 2px solid var(--bg-color);
+    border-radius: 12px;
+    flex-shrink: 1;
+}
+
+button{
+    background-color: var(--primary-color);
+    border: none;  
+    padding: 12px 32px; 
+    border-radius: 8px;
+    color: var(--card-color);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.08);
+}
+button:hover{
+    background-color: #0067FA;
+}
+.board-console{
+    background-color: var(--card-color);
+    height: 28vh;
+    border-radius:  12px;
+    display: flex;
+    flex-direction: row row-reverse;
+    justify-content: space-evenly;
+    align-items: flex;
+
+    padding: .5rem;
+}
+
+.screen{
+    background-color: #2F1050;
+    color: var(--card-color);
+    font-family: monospace;
+    font-size: 1rem;
+    height: 90%;
+    width: 60%;
+    /* margin: 16px 16px ;*/
+    padding: 16px 20px; 
+    border-radius: 8px;
+    align-self: baseline;
+}
+.score{
+    flex-shrink: 1;
+    background-color: var(--card-color);
+    height: 70vh;
+    border-radius: 12px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    padding: 16px;
+    
+    
+}
+.rules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+#rules{
+    visibility: hidden;
+    background-color: var(--bg-color);
+    color:var(--primary-color);
+    border: 1px solid ;
+    
+}
+.sticker{
+    font-size: 100px;      
+}
+h4{
+    color: #c7c7c7 ;
+    margin: 16px;
+}
+.points{
+    height: 35%;
+    width: 80%;
+    background-color: var(--card-color);
+    border-radius: 8px;
+    color: var(--buttons-color);
+    font-size: 100px;  
+    font-weight:600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--bg-color);   
+    border-radius: 16px;
+}
+.cpick{
+    height: 90%;
+    width: 30%;
+    border: 2px solid var(--bg-color);
+    border-radius: 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
