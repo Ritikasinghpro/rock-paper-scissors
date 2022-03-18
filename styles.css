@@ -61,7 +61,7 @@ h6{
 }
 .selection-buttons{
     display: flex;
-    height: 40vh;
+    height: 34vh;
 
     justify-content: space-around;
     align-items: center;
@@ -75,9 +75,9 @@ h6{
     justify-content: space-around;
     align-items: center;
     background-color: var(--card-color);
-    margin: 32px;
+    margin: 0px 32px;
     width: 80%;
-    height: 70%;
+    height: 80%;
     border: 2px solid var(--bg-color);
     border-radius: 12px;
     flex-shrink: 1;
@@ -97,13 +97,13 @@ button:hover{
 .board-console{
     background-color: var(--card-color);
     height: 28vh;
-    border-radius:  12px;
+    border-radius: 0px 0px 12px 12px;
     display: flex;
     flex-direction: row row-reverse;
     justify-content: space-evenly;
     align-items: flex;
 
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
 .screen{
@@ -111,7 +111,7 @@ button:hover{
     color: var(--card-color);
     font-family: monospace;
     font-size: 1rem;
-    height: 90%;
+    height: 77%;
     width: 60%;
     /* margin: 16px 16px ;*/
     padding: 16px 20px; 
@@ -121,7 +121,7 @@ button:hover{
 .score{
     flex-shrink: 1;
     background-color: var(--card-color);
-    height: 70vh;
+    height: 67.8vh;
     border-radius: 12px; 
     display: flex;
     flex-direction: column;
@@ -131,19 +131,23 @@ button:hover{
     
     
 }
-.rules{
+.links{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
-}
-#rules{
-    visibility: hidden;
-    background-color: var(--bg-color);
-    color:var(--primary-color);
-    border: 1px solid ;
+    gap: 8px;
+    margin-top: 16px;
+    height: 16%;
+    border-radius: 12px;
+    
+    background: var(--primary-color); 
+    color: var(--card-color);
+    font-family: monospace;
+    font-size: 1rem;
     
 }
+
 .sticker{
     font-size: 100px;      
 }
@@ -168,14 +172,28 @@ h4{
 .cpick{
     height: 90%;
     width: 30%;
-    border: 2px solid var(--bg-color);
+    border: 2px solid #5902EC;
     border-radius: 8px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
-
+#screen-title{
+    border-radius: 12px 12px 0px 0px;
+}
+a{
+    text-decoration: none;
+    
+    color: #f1f3f8;
+}
+a:hover{
+    color: aqua;
+}
+.colorme {
+    animation: rainbow 10s linear infinite;
+    background: #ff0;
+}
 
 
 
