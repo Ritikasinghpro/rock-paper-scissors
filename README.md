@@ -3,6 +3,8 @@ It is a simple implementation of rock papaer scissors game form [The Odin Projec
 
 Live Preview 👉 [Click Here](https://manikanta528.github.io/rock-paper-scissors/)
 
+[![Screenshot-2022-07-06-at-1-17-39-PM.png](https://i.postimg.cc/02CnvgPQ/Screenshot-2022-07-06-at-1-17-39-PM.png)](https://postimg.cc/ykkchbJ4)
+
 ## Used Languages 
 1. HTML 
 2. CSS 
